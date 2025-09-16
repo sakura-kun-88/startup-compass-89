@@ -1,5 +1,5 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { Wallet, Shield } from 'lucide-react';
+import { Wallet, Lock } from 'lucide-react';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 
@@ -8,7 +8,7 @@ export const WalletConnect = () => {
     <div className="flex items-center gap-4">
       {/* FHE Security Badge */}
       <Badge variant="outline" className="border-blue-500 text-blue-500">
-        <Shield className="h-3 w-3 mr-1" />
+        <Lock className="h-3 w-3 mr-1" />
         FHE Secured
       </Badge>
       
